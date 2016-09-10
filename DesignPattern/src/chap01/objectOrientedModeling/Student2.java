@@ -12,8 +12,8 @@ import java.util.ArrayList;
  */
 public class Student2 {
 	private ArrayList<Course2> courses;
-	String name;
-	
+	String name; 
+	 
 	public Student2() {
 		this.courses = new ArrayList<Course2>();
 	}
