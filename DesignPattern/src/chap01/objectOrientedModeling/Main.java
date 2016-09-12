@@ -6,7 +6,7 @@ package chap01.objectOrientedModeling;
  * 체크포인트 (p.28)
  * 
  * @author assu
- * @date 2016.09.10
+ * @date 2016.09.10 
  */
 public class Main {
 	public static void main(String[] args) {
