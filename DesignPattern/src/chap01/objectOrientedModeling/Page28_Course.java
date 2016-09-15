@@ -1,17 +1,15 @@
 package chap01.objectOrientedModeling;
 
 /**
- * 단방향 연관관계
- * 
- * 체크포인트 (p.28)
+ * 단방향 연관관계 (체크포인트 p.28)
  * 
  * @author assu
  * @date 2016.09.10
  */
-public class Course {
+public class Page28_Course {
 	private String name;
 	
-	public Course(String name) {
+	public Page28_Course(String name) {
 		this.name = name;
 	}
 	
