@@ -6,10 +6,10 @@ package chap01.objectOrientedModeling;
  * @author assu
  * @date 2016.09.10
  */
-public class Page28_Course {
+public class P28_Course {
 	private String name;
 	
-	public Page28_Course(String name) {
+	public P28_Course(String name) {
 		this.name = name;
 	}
 	

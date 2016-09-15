@@ -8,24 +8,24 @@ import java.util.ArrayList;
  * @author assu
  * @date 2016.09.10
  */
-public class Page29_Course {
-	private ArrayList<Page29_Student> students;
+public class P29_Course {
+	private ArrayList<P29_Student> students;
 	private String name;
 	
-	public Page29_Course(String name) {
-		this.students = new ArrayList<Page29_Student>();
+	public P29_Course(String name) {
+		this.students = new ArrayList<P29_Student>();
 		this.name = name;
 	}
 	
-	public void addStudent(Page29_Student student) {
+	public void addStudent(P29_Student student) {
 		this.students.add(student);
 	}
 	
-	public void removeStudent(Page29_Student student) {
+	public void removeStudent(P29_Student student) {
 		this.students.remove(student);
 	}
 	
-	public ArrayList<Page29_Student> getStudents() {
+	public ArrayList<P29_Student> getStudents() {
 		return this.students;
 	}
 	

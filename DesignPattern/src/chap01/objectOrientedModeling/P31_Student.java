@@ -9,16 +9,16 @@ import java.util.Iterator;
  * @author assu
  * @date 2016. 9. 15.
  */
-public class Page31_Student {
-	private ArrayList<Page31_Transcript> transcripts;
+public class P31_Student {
+	private ArrayList<P31_Transcript> transcripts;
 	private String stuName;
 	
-	public Page31_Student(String stuName) {
-		this.transcripts = new ArrayList<Page31_Transcript>();
+	public P31_Student(String stuName) {
+		this.transcripts = new ArrayList<P31_Transcript>();
 		this.stuName = stuName;
 	}
 	
-	public void addTranscript(Page31_Transcript trans) {
+	public void addTranscript(P31_Transcript trans) {
 		this.transcripts.add(trans);
 	}
 	
@@ -30,12 +30,12 @@ public class Page31_Student {
 	 * 한 학생이 수강한 모든 과목 조회
 	 * @return
 	 */
-	public ArrayList<Page31_Course> getCourses() {
-		ArrayList<Page31_Course> courses = new ArrayList<Page31_Course>();
-		Iterator<Page31_Transcript> itor = transcripts.iterator();
+	public ArrayList<P31_Course> getCourses() {
+		ArrayList<P31_Course> courses = new ArrayList<P31_Course>();
+		Iterator<P31_Transcript> itor = transcripts.iterator();
 		
 		while (itor.hasNext()) {
-			Page31_Transcript trc = itor.next();
+			P31_Transcript trc = itor.next();
 			courses.add(trc.getCourse());
 		}
 		return courses;

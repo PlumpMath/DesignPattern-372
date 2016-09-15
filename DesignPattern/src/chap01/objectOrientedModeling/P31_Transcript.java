@@ -7,13 +7,13 @@ package chap01.objectOrientedModeling;
  * @author assu
  * @date 2016. 9. 15.
  */
-public class Page31_Transcript {
-	private Page31_Student student;
-	private Page31_Course course;
+public class P31_Transcript {
+	private P31_Student student;
+	private P31_Course course;
 	private String date;
 	private String grade;
 	
-	public Page31_Transcript(Page31_Student stu, Page31_Course co) {
+	public P31_Transcript(P31_Student stu, P31_Course co) {
 		this.student = stu;
 		this.course = co;
 		
@@ -21,11 +21,11 @@ public class Page31_Transcript {
 		this.course.addTrascript(this);
 	}
 
-	public Page31_Student getStudent() {
+	public P31_Student getStudent() {
 		return student;
 	}
 
-	public Page31_Course getCourse() {
+	public P31_Course getCourse() {
 		return course;
 	}
 
