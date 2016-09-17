@@ -6,7 +6,7 @@ contents
 -
 - 객체지향 모델링 *(objectOrientedModeling)*
 - 객체지향 원리 *(objectOrientedPrinciple)*
-- SOLID 원칙
+- SOLID 원칙 *(SOLIDPrinciple)*
 - 디자인 패턴
 - 스트래티지 패턴
 - 싱글턴 패턴
