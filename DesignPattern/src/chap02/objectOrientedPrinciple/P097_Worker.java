@@ -6,6 +6,11 @@ package chap02.objectOrientedPrinciple;
  * @author assu
  * @date 2016. 9. 17.
  */
-public abstract class P97_Role {
-	public abstract void doIt();
+public class P097_Worker extends P097_Role {
+
+	@Override
+	public void doIt() {
+		System.out.println("Worker~");
+	}
+
 }

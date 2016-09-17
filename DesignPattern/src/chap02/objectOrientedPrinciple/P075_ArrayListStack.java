@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P75_ArrayListStack {
+public class P075_ArrayListStack {
 	private ArrayList<String> arList = new ArrayList<String>();
 	
 	public void push(String item) {

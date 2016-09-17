@@ -6,14 +6,14 @@ package chap02.objectOrientedPrinciple;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P97_Person {
-	private P97_Role role;
+public class P097_Person {
+	private P097_Role role;
 	
-	public void setRole(P97_Role r) {
+	public void setRole(P097_Role r) {
 		this.role = r;
 	}
 	
-	public P97_Role getRole() {
+	public P097_Role getRole() {
 		return this.role;
 	}
 	

@@ -7,9 +7,9 @@ package chap02.objectOrientedPrinciple;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P72_Main {
+public class P072_Main {
 	public static void main(String[] args) {
-		P72_MyStack<String> st = new P72_MyStack<String>();
+		P072_MyStack<String> st = new P072_MyStack<String>();
 		
 		st.push("one");
 		st.push("two");

@@ -10,11 +10,11 @@ import java.util.ArrayList;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P68_ArrayListStack {
+public class P068_ArrayListStack {
 	private int stackSize;
 	private ArrayList<Integer> items;
 	
-	public P68_ArrayListStack(int stackSize) {
+	public P068_ArrayListStack(int stackSize) {
 		this.stackSize = stackSize;
 		this.items = new ArrayList<Integer>(this.stackSize);
 	}

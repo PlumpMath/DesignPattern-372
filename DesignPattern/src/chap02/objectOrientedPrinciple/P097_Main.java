@@ -6,16 +6,16 @@ package chap02.objectOrientedPrinciple;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P97_Main {
+public class P097_Main {
 	public static void main(String[] args) {
-		P97_Person psn = new P97_Person();
+		P097_Person psn = new P097_Person();
 		
 		// 운전자로 역할 변경
-		psn.setRole(new P97_Driver());
+		psn.setRole(new P097_Driver());
 		psn.doIt();
 		
 		// 종업원으로 역할 변경
-		psn.setRole(new P97_Worker());
+		psn.setRole(new P097_Worker());
 		psn.doIt();
 	}
 }

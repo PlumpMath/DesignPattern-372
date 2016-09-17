@@ -6,11 +6,11 @@ package chap02.objectOrientedPrinciple;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P97_Worker extends P97_Role {
+public class P097_Driver extends P097_Role {
 
 	@Override
 	public void doIt() {
-		System.out.println("Worker~");
+		System.out.println("Driver~");
 	}
 
 }

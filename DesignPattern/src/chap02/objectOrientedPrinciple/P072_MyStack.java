@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author assu
  * @date 2016. 9. 17.
  */
-public class P72_MyStack<String> extends ArrayList<String> {
+public class P072_MyStack<String> extends ArrayList<String> {
 
 	/** */
 	private static final long serialVersionUID = -8661830893729782846L;
