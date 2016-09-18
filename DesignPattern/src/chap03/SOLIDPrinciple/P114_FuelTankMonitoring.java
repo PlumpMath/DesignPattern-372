@@ -1,4 +1,4 @@
-package chap02.objectOrientedPrinciple;
+package chap03.SOLIDPrinciple;
 
 /**
  * OCP(Open-Closed Principle) (체크포인트 p.114)

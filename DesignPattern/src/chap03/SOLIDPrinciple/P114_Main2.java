@@ -1,4 +1,4 @@
-package chap02.objectOrientedPrinciple;
+package chap03.SOLIDPrinciple;
 
 /**
  * OCP(Open-Closed Principle) (체크포인트 p.114)
@@ -11,17 +11,12 @@ package chap02.objectOrientedPrinciple;
  * @author assu
  * @date 2016. 9. 18.
  */
-public class P114_FuelTankMonitoringWith2 extends P114_FuelTankMonitoring2 {
-	// ...
-	
-	protected boolean checkFuelTank () {	// new 방식
-		// ...
-		System.out.println("new P114_FuelTankMonitoring checkFuelTank()");
-		return true;
-	}
-	
-	protected void giveWarningSignal() {	// new 방식
-		// ...
-		System.out.println("new P114_FuelTankMonitoring giveWarningSignal()");
+public class P114_Main2 {
+	public static void main(String[] args) {
+		P114_FuelTankMonitoring2 fuel = new P114_FuelTankMonitoringWith2();
+		
+		// new P114_FuelTankMonitoring checkFuelTank()
+		// new P114_FuelTankMonitoring giveWarningSignal()
+		fuel.checkAndWarn();
 	}
 }
