@@ -2,6 +2,7 @@ package chap05.StrategyPattern;
 
 /**
  * 로봇만들기 (본문)
+ *    : 문제점 - 기존 로봇의 공격과 이동방법을 수정하는 경우 기존의 코드가 변경됨 (OCP위반)
  *
  * @author assu
  * @date 2016. 11. 6.
